@@ -8,16 +8,19 @@
             "includePath": [
                 "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/include",
                 "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/src",
-                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/megaatmega2560/RTC_ID274/src",
-                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/megaatmega2560/DHT sensor library_ID19",
-                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/megaatmega2560/Adafruit GFX Library_ID13",
+                "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/Adafruit BMP280 Library",
                 "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/DHT sensor library",
+                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/lib/Adafruit_Unified_Sensor",
                 "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/variants/mega",
+                "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/variants/standard",
+                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/Adafruit GFX Library",
+                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/Adafruit Unified Sensor",
+                "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/RTC/src",
                 "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 "C:/Users/Kurt/.platformio/packages/tool-unity",
                 ""
             ],
@@ -26,33 +29,40 @@
                 "path": [
                     "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/include",
                     "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/src",
-                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/megaatmega2560/RTC_ID274/src",
-                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/megaatmega2560/DHT sensor library_ID19",
-                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/megaatmega2560/Adafruit GFX Library_ID13",
+                    "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/Adafruit BMP280 Library",
                     "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/DHT sensor library",
+                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/lib/Adafruit_Unified_Sensor",
                     "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/Adafruit GFX Library",
+                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/Adafruit Unified Sensor",
+                    "C:/Users/Kurt/Documents/AAA Arduino/weather-monitoring-station/.pio/libdeps/uno/RTC/src",
                     "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/Kurt/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     "C:/Users/Kurt/.platformio/packages/tool-unity",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=40100",
-                "ARDUINO_AVR_MEGA2560",
+                "PLATFORMIO=40304",
+                "ARDUINO_AVR_UNO",
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
                 "ARDUINO=10808",
-                "__AVR_ATmega2560__",
+                "__AVR_ATmega328P__",
                 ""
             ],
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",
             "cppStandard": "c++11",
-            "compilerPath": "\"C:/Users/Kurt/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe\" -mmcu=atmega2560"
+            "compilerPath": "C:/Users/Kurt/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
         }
     ],
     "version": 4
